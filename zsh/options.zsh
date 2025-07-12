@@ -1,0 +1,6 @@
+setopt AUTO_CD
+setopt HIST_IGNORE_DUPS
+setopt INC_APPEND_HISTORY
+setopt INTERACTIVE_COMMENTS
+bindkey -e
+

@@ -1,0 +1,6 @@
+ZSH_THEME_GIT_PROMPT_PREFIX=" ${RED}on "
+ZSH_THEME_GIT_PROMPT_SUFFIX=""
+ZSH_THEME_GIT_PROMPT_DIRTY=" ${RED}✗"
+ZSH_THEME_GIT_PROMPT_CLEAN=" ${GRN}✓"
+PROMPT='$(seperator)${MAG}%n${RST}@${MAG}%m${RST} in ${BLU}%~$(git_prompt_info)\$ '
+
