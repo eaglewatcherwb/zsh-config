@@ -10,3 +10,5 @@ export PATH=$LLVM_ROOT/bin:$PATH
 export PYTHON=/opt/homebrew/bin/python3
 
 export LESSCHARSET=utf-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

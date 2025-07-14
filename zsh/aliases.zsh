@@ -26,7 +26,7 @@ alias pstack='echo "thread backtrace all" | lldb -p '
 alias buildpb='ninja common_proto cz_igs_proto'
 alias python_env='source ~/.venv/bin/activate'
 alias daily_k8s='kubectl --kubeconfig /Users/eaglewatcher/tools/kube_config/dev -n lakehouse-hz-daily-new'
-alias daily_k9s='k9s --kubeconfig /Users/eaglewatcher/tools/kube_config/dev'
+alias daily_k9s='k9s --kubeconfig /Users/eaglewatcher/tools/kube_config/kubeconfig_admin'
 alias xhs_vpn='ssh -D 9016 云器@192.168.15.211'
 
 alias ls="ls -Gp"
