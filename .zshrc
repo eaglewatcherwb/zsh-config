@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting extract)
 
 
 source $ZSH/oh-my-zsh.sh
